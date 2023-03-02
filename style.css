@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: Monaco, 'Lucida Console', monospace;
+    font-size: 100px;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+div {
+    font-size: 20px;
+    margin: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+input[type="number"]:invalid,
+input[type="text"]:invalid {
+    color: red;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+input[type="submit"]:active {
+    opacity: 0.5;
+}
+
+span {
+    font-size: 20px;
+}
+
+.user {
+    font-size: 50px;
+    width: 150px;
+}
+
+@media screen and (max-width:300px) {
+
+    * {
+        font-size: 50px;
+    }
+
+    div,
+    span {
+        font-size: 15px;
+    }
+
+}

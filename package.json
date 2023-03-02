@@ -1,0 +1,15 @@
+{
+  "name": "mastermind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "author": "Kevin Huang",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
